@@ -1,0 +1,48 @@
+{
+    "setting_defaults": {
+        "custom_themes": [
+            {
+                "name": "MG Corporation",
+                "is_dark": true,
+                "fonts": {
+                    "faces": [
+                        {
+                            "font-family": "Inter",
+                            "src": [{"url": "/fonts/Inter.ttf", "format": "ttf"}]
+                        }
+                    ],
+                    "general": "Inter, sans",
+                    "monospace": "'Courier New'"
+                },
+                "colors": {
+                    "accent-color": "#14b5cc",                          // акцент — бирюзовый (по логотипам)
+                    "primary-color": "#04191a",                        // основной фон сайта
+                    "warning-color": "#ff4b55",                        // контрастный красный (универсален)
+                    "sidebar-color": "#04191a",                        // боковая панель — тот же базовый фон
+                    "roomlist-background-color": "#122425",            // чуть светлее для разделения секций
+                    "roomlist-text-color": "#ffffff",                  // основной текст — белый
+                    "roomlist-text-secondary-color": "#bdbdbd",        // вторичный текст — светло-серый
+                    "roomlist-highlights-color": "#14b5cc",            // выделения — акцент
+                    "roomlist-separator-color": "#233739",             // разделители — темно-серый
+                    "timeline-background-color": "#0e2324",            // фон сообщений — чуть светлее основного
+                    "timeline-text-color": "#ffffff",                  // основной текст — белый
+                    "timeline-text-secondary-color": "#bdbdbd",        // вторичный текст — светло-серый
+                    "timeline-highlights-color": "#0e2d2e",            // подсветка сообщений — темная бирюза
+
+                    "username-colors": [
+                        "#14b5cc", "#2e2f32", "#61708b", "#3596fc",
+                        "#368bd6", "#bdbdbd", "#ff4b55", "#ffffff"
+                    ],
+                    "avatar-background-colors": [
+                        "#04191a", "#122425", "#233739", "#0e2324",
+                        "#bdbdbd", "#61708b", "#14b5cc", "#368bd6"
+                    ]
+                },
+                "compound": {
+                    "--cpd-color-icon-accent-tertiary": "#0e2d2e",
+                    "--cpd-color-text-action-accent": "#14b5cc"
+                }
+            }
+        ]
+    }
+}
