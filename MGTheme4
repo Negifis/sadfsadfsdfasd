@@ -1,0 +1,69 @@
+{
+    "name": "MG Corporation v2",
+    "is_dark": true,
+
+    "fonts": {
+        "faces": [
+            {
+                "font-family": "Inter",
+                "src": [{ "url": "/fonts/Inter.ttf", "format": "ttf" }]
+            }
+        ],
+        "general": "Inter, sans",
+        "monospace": "'Courier New'"
+    },
+
+    "colors": {
+        /* ── основные ──────────────────────────────────────────────── */
+        "accent-color":  "#1ea0b3",   /* кнопки / иконки / упоминания  */
+        "primary-color": "#1ea0b3",   /* ссылки <a> внутри сообщений   */
+        "warning-color": "#d65a61",
+
+        /* ── боковая панель и список комнат ────────────────────────── */
+        "sidebar-color":                 "#04191a",
+        "roomlist-background-color":     "#13292b",
+        "roomlist-text-color":           "#dcddde",
+        "roomlist-text-secondary-color": "#8e9297",
+        "roomlist-highlights-color":     "#18393d",
+        "roomlist-separator-color":      "#214044",
+
+        /* ── таймлайн сообщений ────────────────────────────────────── */
+        "timeline-background-color":     "#0d2427",
+        "timeline-text-color":           "#dcddde",
+        "timeline-text-secondary-color": "#8e9297",
+        "timeline-highlights-color":     "#173236",
+
+        /* ── сервисные и состояния ─────────────────────────────────── */
+        "secondary-content":  "#dcddde",
+        "tertiary-content":   "#b9bbbe",
+
+        "reaction-row-button-selected-bg-color": "#254f55",
+        "menu-selected-color":                   "#254f55",
+        "focus-bg-color":                        "#254f55",
+        "room-highlight-color":                  "#254f55",
+        "other-user-pill-bg-color":              "#254f55",
+        "togglesw-off-color":                    "#72767d",
+
+        /* ── палитра участников ────────────────────────────────────── */
+        "username-colors": [
+            "#1ea0b3", "#4c9b7f", "#5080c1", "#7a6abd",
+            "#c09655", "#d65a61", "#ad9043", "#8a99a3"
+        ],
+        "avatar-background-colors": [
+            "#0a2023", "#1b3036", "#213c41", "#274850",
+            "#455a63", "#31484d", "#1f5a66", "#344862"
+        ]
+    },
+
+    "compound": {
+        "--cpd-color-icon-accent-tertiary":        "#173236",
+        "--cpd-color-text-action-accent":          "#1ea0b3",
+        "--cpd-color-text-link-primary-default":   "#1ea0b3",
+        "--cpd-color-text-link-primary-hover":     "#27b7cc",
+        "--cpd-color-text-link-primary-visited":   "#168391",
+        "--cpd-color-text-link-primary-active":    "#126f7b",
+        "--cpd-color-text-heading-primary":        "#ffffff",
+        "--cpd-color-border-subtle":               "#214044",
+        "--cpd-color-surface-subtle":              "#13292b"
+    }
+}
