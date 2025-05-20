@@ -37,6 +37,15 @@
     },
     "compound": {
         "--cpd-color-icon-accent-tertiary": "#0c282c",
-        "--cpd-color-text-action-accent": "#197c8d"
+        "--cpd-color-text-action-accent":   "#197c8d",
+    
+        "--cpd-color-text-link-primary-default":  "#197c8d",
+        "--cpd-color-text-link-primary-hover":    "#2493a4",
+        "--cpd-color-text-link-primary-visited":  "#0e7080",
+        "--cpd-color-text-link-primary-active":   "#0f5968",
+    
+        "--cpd-color-text-heading-primary": "#ffffff",
+        "--cpd-color-border-subtle":        "#233739",
+        "--cpd-color-surface-subtle":       "#122425"
     }
 }
