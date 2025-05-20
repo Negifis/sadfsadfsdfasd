@@ -5,7 +5,7 @@
         "faces": [
             {
                 "font-family": "Inter",
-                "src": [{"url": "/fonts/Inter.ttf", "format": "ttf"}]
+                "src": [{ "url": "/fonts/Inter.ttf", "format": "ttf" }]
             }
         ],
         "general": "Inter, sans",
@@ -34,5 +34,9 @@
             "#092023", "#1b2e36", "#1f3d40", "#264850",
             "#455a63", "#3a4b50", "#25545e", "#2e3e5b"
         ]
+    },
+    "compound": {
+        "--cpd-color-icon-accent-tertiary": "#0c282c",
+        "--cpd-color-text-action-accent": "#197c8d"
     }
 }
